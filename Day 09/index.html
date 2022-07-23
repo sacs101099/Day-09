@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        .h-200{
+            height: 200px;
+        }
+        .h-500{height: 500px}
+    </style>
+</head>
+<body>
+<!--<header>-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="h-200 col-lg-2 cal-md-3 cal-sm-4 bg-primary">Logo</div>-->
+<!--            <div class="h-200 col-lg-2 cal-md-9 cal-sm-8 bg-secondary">Banner</div>-->
+<!--        </div>-->
+<!--        <div class="row mt-4">-->
+<!--            <div class="h-200 bg-danger col-lg"></div>-->
+<!--            <div class="h-200 bg-info col-lg"></div>-->
+<!--            <div class="h-200 bg-success col-lg"></div>-->
+<!--            <div class="h-200 bg-dark col-lg"></div>-->
+<!--            <div class="h-200 bg-warning col-lg"></div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</header>-->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+   <div class="container">
+          <a href="" class="navbar-brand">Logo</a>
+       <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+           <span class="navbar-toggler-icon"></span>
+       </button>
+         <div class="collapse navbar-collapse" id="menu">
+             <ul class="navbar-nav ms-auto">
+                 <li><a href="" class="nav-link">Home</a></li>
+                 <li><a href="" class="nav-link">About</a></li>
+                 <li><a href="" class="nav-link">Gallery</a></li>
+                 <li class="dropdown">
+                     <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Service</a>
+
+                     <ul class="dropdown-menu">
+                         <li><a href="" class="dropdown-item">Service one</a></li>
+                         <li><a href="" class="dropdown-item">Service two</a></li>
+                         <li><a href="" class="dropdown-item">Service three</a></li>
+                     </ul>
+
+                 </li>
+                 <li><a href="" class="nav-link">Log In</a></li>
+                 <li><a href="" class="nav-link">Registration</a></li>
+
+             </ul>
+         </div>
+   </div>
+</nav>
+
+<div class="carousel slide" id="carouselplugin" data-bs-ride="carousel" data-bs-interval="1800">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./image/jasmin-chew-uCCU8o7FwE4-unsplash.jpg" alt="Pic 01" class="h-500 w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="./image/jonas-allert-ujSoiWafd6A-unsplash.jpg" alt="Pic 02" class="h-500 w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="./image/photo-1658528508721-d11f860d88a2.avif" alt="Pic 03" class="h-500 w-100">
+        </div>
+    </div>
+    <button type="button" class="carousel-control-prev"data-bs-slide="prev" data-bs-target="#carouselplugin">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+<!--    <button type="button" class="carousel-control-next"data-bs-slide="next" data-bs-target="#carouselplugin">-->
+<!--        <span class="carousel-control-next-icon"></span>-->
+<!--    </button>-->
+
+    <a href="#carouselplugin" class="carousel-control-next" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
+
+
+<!--download bootstrap-->
+<!--download jquary-->
